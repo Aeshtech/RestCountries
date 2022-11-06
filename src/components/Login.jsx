@@ -85,7 +85,7 @@ function Login() {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       value={values.email}
-                      placeholder="Enter email id / username"
+                      placeholder="Enter email: eve.holt@reqres.in"
                       className="form-control inp_text w-75 m-auto"
                       id="email"
                     />
@@ -100,7 +100,7 @@ function Login() {
                       onChange={handleChange}
                       onBlur={handleBlur}
                       value={values.password}
-                      placeholder="Enter password"
+                      placeholder="Enter any password"
                       className="form-control w-75 mt-4 m-auto"
                     />
                     {/* If validation is not passed show errors */}
